@@ -2,5 +2,5 @@
 
 Exercise 1: `Fibonacci_unsolved.ipynb`
 
-Exercise 2: `assignment2_bonus_unsloved.ipynb`
+Exercise 2: `data.csv`, `assignment2_bonus_unsloved.ipynb`
 
