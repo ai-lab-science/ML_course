@@ -8,4 +8,4 @@ Assignment 1: `iml_assignment1_unsolved.ipynb`, `iml_assignment1_solved.ipynb ` 
 
 Assignment 2: `data.csv`, `assignment2_bonus_unsloved.ipynb`
 
-Assignment 3: `MGD.csv`
+Assignment 3: `MGD.csv`, `bonus_unsloved.ipynb`
