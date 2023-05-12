@@ -1,4 +1,4 @@
-# Description of Assignment 4
+[# Description of Assignment 4
 ### Author: [Fotios Lygerakis](https://github.com/ligerfotis)
 
 ### Implement the Perceptron algorithm for classification of the Iris dataset.
@@ -58,3 +58,4 @@
     * Use LinearRegression() from sklearn.linear_model to train a linear regression model.
     * Use mean_squared_error() from sklearn.metrics to calculate the mean squared error of the linear regression model.
 * Compare the mean squared error of the linear regression model with the mean squared error of the multilayer perceptron model.
+]()
