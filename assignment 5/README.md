@@ -1,4 +1,4 @@
-[# Description of Assignment 4
+[# Description of Assignment 5
 ### Author: [Fotios Lygerakis](https://github.com/ligerfotis)
 
 ### Implement the Perceptron algorithm for classification of the Iris dataset.
