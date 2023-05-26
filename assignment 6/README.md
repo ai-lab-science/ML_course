@@ -3,22 +3,17 @@
 ### Implementing Gaussian Processes in Python
 
 In this assignment, your task is to implement the Gaussian Processes algorithm as a class in Python. Gaussian Processes are a powerful tool for probabilistic regression and can be used for various machine learning tasks. The goal of this assignment is to gain a deeper understanding of Gaussian Processes and their implementation.
-Tasks
 
 #### GaussianProcess class
 Implement the class that can perform the following tasks:
 
-* Fit the model: The class should be able to fit the model to a given training data set (X, y), where X is an n x d matrix representing the input features, and y is an n-dimensional vector representing the target values. The Gaussian Process fitting involves estimating the hyperparameters of the kernel function that captures the underlying covariance structure of the data.
+* Fit the model: The class should be able to fit the model to a given training data set (X, y), where X is an n x d matrix representing the input features, and y is an n-dimensional vector representing the target values
 
 * Predict the output: The class should be able to predict the output for a given test data set X*, where X* is an m x d matrix representing the input features of the test data. The predicted output is obtained by using the training data and the estimated covariance structure to infer the most likely target values for the test data points.
 
-* Compute log marginal likelihood: The class should be able to compute the log marginal likelihood of the training data set. The log marginal likelihood measures how well the model with its estimated hyperparameters explains the observed training data. It is used as an optimization objective for finding the best hyperparameters.
-
-* Compute gradients of log marginal likelihood: The class should be able to compute the gradients of the log marginal likelihood with respect to the hyperparameters. These gradients provide information on how the log marginal likelihood changes as the hyperparameters are varied and are crucial for optimizing the hyperparameters.
+* Compute log marginal likelihood: The class should be able to compute the log marginal likelihood of the training data set. The log marginal likelihood measures how well the model with its estimated hyperparameters explains the observed training data. It is used as an optimization objective for finding the best hyperparameters(no need to do that).
 
 * Compute predictive mean and variance: The class should be able to compute the predictive mean and variance for a given test data set X*. The predictive mean represents the expected value of the target variable for each test data point, while the predictive variance indicates the uncertainty associated with the predictions.
-
-* Compute gradients of predictive mean and variance: The class should be able to compute the gradients of the predictive mean and variance with respect to the hyperparameters. These gradients provide information on how the predictive mean and variance change as the hyperparameters are varied, which is useful for optimizing the hyperparameters.
 
 
 #### Kernel Functions
